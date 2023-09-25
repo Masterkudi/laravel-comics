@@ -1,6 +1,5 @@
-@@php
+@php
     $links = [
-        <?php
 
 return [
     [
