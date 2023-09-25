@@ -11,7 +11,7 @@
     @include("partials.navbar")
 
     <main>
-
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, ex veniam architecto nobis dolor tempora, debitis sit labore fuga similique doloribus magnam corporis voluptatibus quia incidunt. Eaque omnis aliquid dolor.</h1>
         @yield("content")
     </main>
 
