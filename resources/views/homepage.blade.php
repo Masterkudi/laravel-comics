@@ -9,19 +9,21 @@
     <div class="gallery">
         <div class="gallery">
             <div class="row row-cols-6">
-                <div class="col" v-for="(character, i) in characters" :key="`character_${i}`">
+                <div class="col" v-for="(character, i) in comics" :key="`character_${i}`">
                     <div class="card border-0 rounded-0 h-100 bg-transparent text-white">
-                        <img :src="character.thumb" alt="" />
+                        <img :src="comics.thumb" alt="" />
                         <div class="card-body p-0 pb-5 pt-2">
-                            {$characters as $character}
+                            {$comics as $title}
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="btn btn-primary text-white text-center rounded">
+                LOAD MORE
+            </div>
         </div>
 
-        <div class="btn btn-primary d-flex text-white text-center rounded-0">LOAD MORE</div>
-
+       
     </div>
 
     <ul class="banner nav flex-row">
@@ -40,5 +42,5 @@
                     alt="">DC POWER
                 VISA</a></li>
     </ul>
-    
+
 @endsection

@@ -2,13 +2,12 @@
     background-image: url(/public/img/footer-bg.jpg);
     color: #fff;
     display: flex;
-    overflow: hidden;
     justify-content: space-around;
     position: relative;
 }
 
 .menu-bar img {
-    align-self: center;
+    overflow: hidden;
 }
 
 .social-bar {
