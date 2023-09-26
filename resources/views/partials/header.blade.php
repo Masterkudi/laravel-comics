@@ -1,5 +1,5 @@
 <header>
-    <img src="/public/img/dc-logo.png" alt="Logo DC">
+    <img src="/img/dc-logo.png" alt="Logo DC">
 
     <ul class="nav nav-underline">
         <li class="nav-item"><a href="/characters" class="nav-link">CHARACTERS</a></li>

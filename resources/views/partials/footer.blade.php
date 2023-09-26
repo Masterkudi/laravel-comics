@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <img src="/public/img/dc-logo-bg.png" alt="">
+        <img src="/img/dc-logo-bg.png" alt="">
     </div>
 
     <div class="social-bar">
@@ -56,11 +56,11 @@
         </button>
         <div class="social-icons">
             <h4>FOLLOW US</h4>
-            <img src="/public/img/footer-facebook.png" alt="">
-            <img src="/public/img/footer-twitter.png" alt="">
-            <img src="/public/img/footer-youtube.png" alt="">
-            <img src="/public/img/footer-pinterest.png" alt="">
-            <img src="/public/img/footer-periscope.png" alt="">
+            <img src="/img/footer-facebook.png" alt="">
+            <img src="/img/footer-twitter.png" alt="">
+            <img src="/img/footer-youtube.png" alt="">
+            <img src="/img/footer-pinterest.png" alt="">
+            <img src="/img/footer-periscope.png" alt="">
         </div>
     </div>
 </footer>
