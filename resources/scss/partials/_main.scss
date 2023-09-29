@@ -25,7 +25,9 @@
   }
   
   .gallery .btn {
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    max-width: 10%;
   }
   
   .banner {
