@@ -6,15 +6,13 @@
     </div>
 
     <div class="gallery">
-        <div class="gallery">
-            <div class="row row-cols-6">
+        <div class="gallery d-flex">
+            <div class="row row-cols-4">
                 @foreach ($cards as $card)
-                    <div class="card-box">
-                        <div>
-                            <img class="img-card p-3 m-2" src="{{ $card['thumb'] }}" alt="comic">
-                        </div>
+                    <div class="card-box p-3">
+                        <img src="{{ $card['thumb'] }}" alt="comic-img">
                         <div class="justify-content-center align-items-center">
-                            <div class="comic-name text-white text-uppercase text-center">
+                            <div class="comic-name text-white text-uppercase text-center p-2">
                                 {{ $card['series'] }}
                             </div>
                         </div>
@@ -25,8 +23,6 @@
         <div class="btn btn-primary text-white text-center rounded">
             LOAD MORE
         </div>
-
-
     </div>
 
     <ul class="banner nav flex-row">
